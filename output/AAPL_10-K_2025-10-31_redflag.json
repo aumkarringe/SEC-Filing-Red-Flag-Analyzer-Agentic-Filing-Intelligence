@@ -1,0 +1,20 @@
+{
+  "ticker": "AAPL",
+  "company_name": "Apple Inc.",
+  "form_type": "10-K",
+  "newer_date": "2025-10-31",
+  "older_date": "2024-11-01",
+  "flags": [
+    {
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "category": "LITIGATION",
+      "section": "Item 3 — Legal Proceedings",
+      "headline": "New fine imposed by the Commission in Digital Markets Act investigations",
+      "explanation": "The Commission fined the Company €500 million in the Article 5(4) Investigation and issued a cease and desist order requiring changes to company practices. This represents a significant new legal liability and operational restriction.",
+      "evidence_newer": "On April 23, 2025, the Commission fined the Company €500 million in the Article 5(4) Investigation and issued a cease and desist order requiring the Company to remove technical and commercial restrictions that prevent developers from steering users to alternative distribution channels outside the App Store.",
+      "evidence_older": ""
+    }
+  ],
+  "analyst_summary": "A substantial legal risk has arisen due to a €500 million fine related to the Digital Markets Act investigations. This fine introduces a significant burden on the company, requiring immediate operational changes and raising concerns regarding compliance and future operations."
+}
