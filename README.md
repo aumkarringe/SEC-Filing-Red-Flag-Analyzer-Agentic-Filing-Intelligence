@@ -80,14 +80,6 @@ source .venv/bin/activate
 pip install weasyprint
 ```
 
-## Deployment to Streamlit Cloud
-
-1. Push this repository to GitHub.
-2. Create a new app in Streamlit Community Cloud, point it at `app.py`.
-3. Add the same secrets in the Streamlit dashboard (OPENROUTER_API_KEY, OPENROUTER_MODEL, EDGAR_USER_AGENT).
-
-Streamlit will install `requirements.txt` automatically, but note that WeasyPrint's system libraries are not managed by Python and must be installed separately if you need HTML→PDF on the host.
-
 ## Configuration / Troubleshooting
 
 - If you see an authentication error from OpenRouter like `Missing Authentication header` or HTTP 401, verify `OPENROUTER_API_KEY` is correct and active and that Streamlit was restarted after setting the env var.
